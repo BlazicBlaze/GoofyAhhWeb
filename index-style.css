@@ -2,13 +2,25 @@ body {
   background-color: #2C2F33;
   color: white;
 }
-a {
+a:link {
   color: rgb(0,100,255);
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  color: rgb(0,50,250);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: rgb(0,50,250);
+  text-decoration: none;
 }
 img {
   border: solid gray;
 }
 
-.navigation{
+.navigation, .navigation:visited {
+  color: rgb(0,100,255);
   text-decoration: none;
 }
