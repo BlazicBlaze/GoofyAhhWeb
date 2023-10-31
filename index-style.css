@@ -8,3 +8,7 @@ a {
 img {
   border: solid gray;
 }
+
+#navigation{
+  text-decoration: none;
+}
