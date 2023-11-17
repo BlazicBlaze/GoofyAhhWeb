@@ -30,3 +30,7 @@ img {
   border: solid gray;
   padding: 5px;
 }
+
+#dk:active {
+  transform: scale(0.5);
+}
