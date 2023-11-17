@@ -31,8 +31,8 @@ img {
   border: solid gray;
   padding: 5px;
   position: fixed;
-  right: 5px;
-  bottom: 5px;
+  right: 4%;
+  bottom: 95%;
 }
 
 #dk:active {
