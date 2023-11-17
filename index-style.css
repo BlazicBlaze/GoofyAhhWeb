@@ -1,7 +1,6 @@
 body {
   background-color: #2C2F33;
   color: white;
-  position: relative;
 }
 a:link {
   color: rgb(0,100,255);
@@ -26,15 +25,19 @@ img {
   text-decoration: none;
 }
 
-#webname {
-  text-align: center;
-  border: solid gray;
-  padding: 5px;
-  position: fixed;
-  right: 4%;
-  bottom: 95%;
-}
-
 #dk:active {
   transform: scale(0.5);
+}
+
+#starege {
+  border: none;
+  position: fixed;
+  right: 4%;
+  bottom: 4%;
+  width: 10%;
+  transition: width 3s;
+}
+
+#starege:active {
+  width: 100%;
 }
