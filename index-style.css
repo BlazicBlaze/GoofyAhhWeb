@@ -1,6 +1,7 @@
 body {
   background-color: #2C2F33;
   color: white;
+  position: relative;
 }
 a:link {
   color: rgb(0,100,255);
@@ -29,6 +30,9 @@ img {
   text-align: center;
   border: solid gray;
   padding: 5px;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
 }
 
 #dk:active {
